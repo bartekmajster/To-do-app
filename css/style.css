@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(32, 31, 33);
+  font-family: "Lato", sans-serif;
+  color: rgb(219, 219, 220);
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(16, 107, 255);
+  border-radius: 0 0 15px 15px;
+  padding: 15px;
+}
+
+header input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 0;
+  border-radius: 5px 25px 25px 5px;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+  padding: 0px 60px 0px 10px;
+}
+
+header input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header input::-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header input::-o-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-apearance: none;
+  -o-apearance: none;
+}
+
+header button i {
+  font-size: 25px;
+  color: rgb(16, 107, 255);
+  line-height: 50px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content ul li {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgba(73, 79, 87, 1);
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  min-height: 50px;
+  word-wrap: break-word;
+  padding: 10px 80px 10px 10px;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(73, 79, 87, 1);
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.buttons button {
+  font-size: 25px;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.fa-check-circle {
+  color: rgba(16, 107, 255, 0.8);
+}
+
+.fa-trash-alt {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.2s;
+}
+
+.fa-trash-alt:hover {
+  color: rgba(252, 65, 65, 0.8);
+}
