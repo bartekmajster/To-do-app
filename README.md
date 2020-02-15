@@ -9,7 +9,7 @@
 * [To do app](https://bartekmajster.github.io/To-do-app/) - by bartekmajster
 
 ### To do:
-* fix shadow button
+* fix button on mobile devices
 * add some animation
 * add desktop view
-*implement cookie
+* ~~add local storage~~
