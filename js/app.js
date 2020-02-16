@@ -18,7 +18,7 @@ class List {
 	}
 
 	updateList() {
-		const list = document.querySelector('.undone');
+		const list = document.querySelector('ul');
 
 		this.tasks.sort((a,b)=>{
 			if(a.done && !b.done) return 1;
