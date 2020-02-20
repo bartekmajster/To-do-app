@@ -18,7 +18,10 @@ body {
   box-shadow: 0 0 23px 3px rgba(0,0,0,.21);
   border-radius: 22px;
   padding-top: 80px;
-  overflow: scroll;
+  overflow-y: scroll;
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 header {
